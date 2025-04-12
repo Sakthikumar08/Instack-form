@@ -7,7 +7,7 @@ const Form = () => {
   const handleClear = () => {
     if (formRef.current) {
       formRef.current.reset();
-      document.getElementById('rangeValue').textContent = 5; // Reset range label
+      document.getElementById('rangeValue').textContent = 5; 
     }
   };
 
